@@ -2,7 +2,7 @@
 
 Java Spring Hibernate Photo Blog
 
-## Getting Started
+## Description
 
 This is my example of Java Spring and Hibernate Frameworks for web.
 
