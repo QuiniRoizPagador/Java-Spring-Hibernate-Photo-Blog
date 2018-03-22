@@ -31,9 +31,4 @@ There are no tests yet.
 * **Joaquín Roiz Pagador** 
 
 ## License
- * [GNU GENERAL PUBLIC LICENSE] (https://spring.io/)
- 
-
-* [GNU General Public License v3.0](https://github.com/QuiniRoizPagador/Java-Spring-Hibernate-Photo-Blog/blob/add-license-1/LICENSE)
-
-                   
+ * [GNU General Public License v3.0](https://github.com/QuiniRoizPagador/Java-Spring-Hibernate-Photo-Blog/blob/master/LICENSE)
