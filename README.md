@@ -8,7 +8,7 @@ This is my example of Java Spring and Hibernate Frameworks for web.
 
 ### Prerequisites
 
-Tomcat 8 or more, Spring framework suppor on your IDE and MySql
+Tomcat 8 or more, Spring framework support on your IDE and MySql
 
 ### Installing
 
