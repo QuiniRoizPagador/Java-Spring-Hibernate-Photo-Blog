@@ -22,7 +22,7 @@ There are no tests yet.
 
 ## Built With
 
-* [Spring Framework](https://spring.io/ - The web framework used
+* [Spring Framework](https://spring.io/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Hibernate](http://hibernate.org/) - The persistence framework
 
@@ -31,6 +31,8 @@ There are no tests yet.
 * **Joaquín Roiz Pagador** 
 
 ## License
+ * [GNU GENERAL PUBLIC LICENSE] (https://spring.io/)
+ 
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
