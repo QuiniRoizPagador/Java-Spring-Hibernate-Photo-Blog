@@ -1,6 +1,4 @@
-# Project Title
-
-Java Spring Hibernate Photo Blog
+# Java Spring Hibernate Photo Blog
 
 ## Description
 
