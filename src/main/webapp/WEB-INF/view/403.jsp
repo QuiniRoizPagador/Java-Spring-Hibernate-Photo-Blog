@@ -2,17 +2,18 @@
 <%@ page session="false"%>
 <html>
     <head lang="es">
-        <title>Damma Persalt</title>
+       <title>Your Blog</title>
         <meta charset="UTF-8">
-        <meta name="title" content="Damma Persalt">
-        <meta name="description" content="Portfolio de la artista Dámaris Pérez Rodríguez, graduada en Bellas Artes por la Universidad de Sevilla">
-        <meta name="subjetc" content="Dámaris Pérez Rodríguez">
+        <meta name="title" content="Your Blog">
+        <meta name="description" content="This is my blog">
+        <meta name="subjetc" content="Java Spring Framework Blog">
         <meta name="Language" content="ES">
-        <meta name="keywords" content="<c:forEach items="${families}" var="family">${family.description},</c:forEach>Dama, Damma, Dámaris, Pérerz, Rodríguez, Art, Arte, Diseño"/>
+        <meta name="keywords" content="<c:forEach items="${families}" var="family">${family.description},</c:forEach>"/>
             <meta name="robots" content="Index, Follow">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="author" content="Quini Roiz">
-            <link rel="stylesheet" href="<c:url value="/resources/css/plugins/bootstrap/bootstrap.min.css" />">
+            <link rel="stylesheet" href="<c:url value="/resources/css/estilos.min.css" />">
+        <link rel="stylesheet" href="<c:url value="/resources/css/plugins/bootstrap/bootstrap.min.css" />">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="<c:url value="/resources/images/favicon.ico"/>">
