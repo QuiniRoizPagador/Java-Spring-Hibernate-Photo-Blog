@@ -26,7 +26,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan({"es.dama.controllers", "es.dama.config"})
+@ComponentScan({"es.blog.controllers", "es.blog.config"})
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     /**
