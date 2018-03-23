@@ -8,5 +8,5 @@
     
     <!-- Uncomment and add your base-package here:-->
     <context:component-scan
-        base-package="es.dama"/>  
+        base-package="es.blog"/>  
 </beans>
