@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * @author Quini
  */
 @Configuration
-@ComponentScan(basePackages = {"es.dama"})
+@ComponentScan(basePackages = {"es.blog"})
 public class RootConfig {
 
 }
