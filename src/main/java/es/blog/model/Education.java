@@ -19,7 +19,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class Education implements Serializable {
 
     private static final long serialVersionUID = -2247398883259696802L;
-	@Id
+    @Id
     private int id;
     @Column(name = "_from")
     @DateTimeFormat(pattern = "yyyy-MM")

@@ -18,12 +18,12 @@ import javax.persistence.Table;
 public class PhotoFamily implements Serializable {
 
     private static final long serialVersionUID = -347003119926717137L;
-	@Id
+    @Id
     private int id;
     @Column(name = "description")
     private String description;
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name="firstImage")
+    @JoinColumn(name = "firstImage")
     private Image firstImage;
 
     public PhotoFamily() {

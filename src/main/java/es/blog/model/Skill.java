@@ -16,7 +16,7 @@ import javax.persistence.Table;
 public class Skill implements Serializable {
 
     private static final long serialVersionUID = 3200701722982781518L;
-	@Id
+    @Id
     private int id;
     private boolean isSkill;
     private int percent;

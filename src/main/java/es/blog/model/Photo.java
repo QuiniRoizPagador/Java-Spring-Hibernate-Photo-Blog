@@ -21,7 +21,7 @@ import javax.persistence.Table;
 public class Photo implements Serializable {
 
     private static final long serialVersionUID = 1735509778614055781L;
-	@Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name = "uuid", unique = true, nullable = false)
@@ -32,9 +32,9 @@ public class Photo implements Serializable {
     private String title;
     @OneToOne(cascade = CascadeType.ALL)
     private PhotoFamily family;
-    
+
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name="_image")
+    @JoinColumn(name = "_image")
     private Image _image;
 
     public Photo() {
@@ -124,10 +124,8 @@ public class Photo implements Serializable {
 
     @Override
     public String toString() {
-        return "Id: " + getId()
-                + "\nUUID: " + getUuid()
-                + "\nTitle: " + getTitle()
-                + "\nDescription: " + getDescription();
+        return "Id: " + getId() + "\nUUID: " + getUuid() + "\nTitle: " + getTitle() + "\nDescription: "
+                + getDescription();
     }
 
 }

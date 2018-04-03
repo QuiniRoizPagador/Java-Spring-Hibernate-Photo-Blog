@@ -14,11 +14,11 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "images")
-public class Image implements Serializable{
+public class Image implements Serializable {
 
     private static final long serialVersionUID = -1056937258330711973L;
-	@Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @Column(name = "image")
     private byte[] image;

@@ -7,7 +7,7 @@ import java.util.List;
  * @author Quini_Dev
  */
 public class ImageData {
-    
+
     private PhotoFamily family;
     private List<Photo> images;
 
@@ -29,7 +29,5 @@ public class ImageData {
     public void setImages(List<Photo> images) {
         this.images = images;
     }
-    
-    
-    
+
 }

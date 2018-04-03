@@ -11,10 +11,10 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "geolocation")
-public class GeoLocation implements Serializable{
+public class GeoLocation implements Serializable {
 
     private static final long serialVersionUID = -8618253172439929881L;
-	@Id
+    @Id
     private String sesionId;
     private String locationCountry;
 

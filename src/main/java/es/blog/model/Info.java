@@ -23,7 +23,7 @@ import org.hibernate.annotations.FetchMode;
 public class Info implements Serializable {
 
     private static final long serialVersionUID = 3871620496966521321L;
-	@Id
+    @Id
     private int id;
     private String uuid;
     private String name;
@@ -33,9 +33,9 @@ public class Info implements Serializable {
     private String description;
     private String footer;
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name="image1")
+    @JoinColumn(name = "image1")
     private Image image1;
-    @JoinColumn(name="image2")
+    @JoinColumn(name = "image2")
     @OneToOne(cascade = CascadeType.ALL)
     private Image image2;
 
