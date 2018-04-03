@@ -17,7 +17,8 @@ import javax.persistence.Table;
 @Table(name = "families")
 public class PhotoFamily implements Serializable {
 
-    @Id
+    private static final long serialVersionUID = -347003119926717137L;
+	@Id
     private int id;
     @Column(name = "description")
     private String description;

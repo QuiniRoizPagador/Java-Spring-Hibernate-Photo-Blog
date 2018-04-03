@@ -17,13 +17,13 @@ import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- *
+ * This is my Hibernate Class Configuration that contains basic config from models, jdbc, hibernate and driver class
  * @author Quini_Dev
  */
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({"es.blog"})
-@PropertySource(value = {"classpath:application.properties"})
+@ComponentScan({ "es.blog" })
+@PropertySource(value = { "classpath:application.properties" })
 public class HibernateConfiguration {
 
     @Autowired
@@ -33,7 +33,7 @@ public class HibernateConfiguration {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan(new String[]{"es.blog.model"});
+        sessionFactory.setPackagesToScan(new String[] { "es.blog.model" });
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
     }

@@ -13,7 +13,8 @@ import javax.persistence.Table;
 @Table(name = "geolocation")
 public class GeoLocation implements Serializable{
 
-    @Id
+    private static final long serialVersionUID = -8618253172439929881L;
+	@Id
     private String sesionId;
     private String locationCountry;
 

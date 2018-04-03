@@ -22,7 +22,8 @@ import org.hibernate.annotations.FetchMode;
 @Table(name = "info")
 public class Info implements Serializable {
 
-    @Id
+    private static final long serialVersionUID = 3871620496966521321L;
+	@Id
     private int id;
     private String uuid;
     private String name;

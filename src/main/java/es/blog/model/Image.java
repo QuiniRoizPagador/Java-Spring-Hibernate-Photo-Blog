@@ -16,7 +16,8 @@ import javax.persistence.Table;
 @Table(name = "images")
 public class Image implements Serializable{
 
-    @Id
+    private static final long serialVersionUID = -1056937258330711973L;
+	@Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private int id;
     @Column(name = "image")

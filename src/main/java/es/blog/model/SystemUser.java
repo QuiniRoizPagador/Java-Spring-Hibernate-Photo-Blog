@@ -13,16 +13,14 @@ import org.hibernate.annotations.ColumnTransformer;
 @Table(name = "users")
 public class SystemUser implements Serializable {
 
-    private static long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1650778035061376221L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name = "username", unique = true, nullable = false)
     private String username;
     @Column(name = "password", unique = true, nullable = false)
-    @ColumnTransformer(
-            read = "AES_DECRYPT(password, 'yourpassword')",
-            write = "AES_ENCRYPT(?, 'yourpassword')")
+    @ColumnTransformer(read = "AES_DECRYPT(password, 'yourpassword')", write = "AES_ENCRYPT(?, 'yourpassword')")
     private String password;
 
     public SystemUser() {
@@ -33,13 +31,6 @@ public class SystemUser implements Serializable {
      */
     public static long getSerialVersionUID() {
         return serialVersionUID;
-    }
-
-    /**
-     * @param aSerialVersionUID the serialVersionUID to set
-     */
-    public static void setSerialVersionUID(long aSerialVersionUID) {
-        serialVersionUID = aSerialVersionUID;
     }
 
     /**
@@ -86,9 +77,7 @@ public class SystemUser implements Serializable {
 
     @Override
     public String toString() {
-        return "Id: " + getId()
-                + "\n Username: " + getUsername()
-                + "\n Password: " + getPassword();
+        return "Id: " + getId() + "\n Username: " + getUsername() + "\n Password: " + getPassword();
     }
 
 }

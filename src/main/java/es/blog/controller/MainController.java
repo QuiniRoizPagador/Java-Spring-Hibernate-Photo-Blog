@@ -144,8 +144,8 @@ public class MainController {
                 model.addObject("error", "Ha ocurrido un error al enviar tu mensaje. Por favor, int&eacute;ntalo de nuevo en otro momento.");
             }
             model.setViewName("redirect:/");
-            return model;
         }
+        return model;
 
     }
 

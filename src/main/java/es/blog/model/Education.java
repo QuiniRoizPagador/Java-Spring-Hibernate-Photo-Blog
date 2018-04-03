@@ -18,7 +18,8 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Table(name = "education")
 public class Education implements Serializable {
 
-    @Id
+    private static final long serialVersionUID = -2247398883259696802L;
+	@Id
     private int id;
     @Column(name = "_from")
     @DateTimeFormat(pattern = "yyyy-MM")

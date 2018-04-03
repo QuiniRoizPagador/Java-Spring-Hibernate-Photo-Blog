@@ -20,7 +20,8 @@ import javax.persistence.Table;
 @Table(name = "photos")
 public class Photo implements Serializable {
 
-    @Id
+    private static final long serialVersionUID = 1735509778614055781L;
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name = "uuid", unique = true, nullable = false)
